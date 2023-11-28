@@ -1,0 +1,41 @@
+const TABLE = {
+    user:{
+        tableName:"user",
+        foreignKey:"user_id"
+    },
+    customer:{
+        tableName:"customer",
+        foreignKey:"customer_id"
+    },
+    invoice:{
+        tableName:"invoice",
+        foreignKey:"invoice_id"
+    },
+    sale:{
+        tableName:"sale"
+    },
+    supplier:{
+        tableName:"supplier",
+        foreignKey:"supplier_id"
+    },
+    product:{
+        tableName:"product",
+        foreignKey:"product_id"
+    },
+    receiveProduct:{
+        tableName:"receive_product"
+    },
+    purchaseOrder:{
+        tableName:"purchase_order"
+    },
+    productCategory:{
+        tableName:"product_category",
+        foreignKey:"category_id"
+    },
+    productUnit:{
+        tableName:"product_unit",
+        foreignKey:"unit_id"
+    },
+}
+
+module.exports = {TABLE}
