@@ -1,5 +1,5 @@
 # Store API Using Sequelize and GraphQL 
-I created this project to learn modern API building technologies like ORM (Object Relation Mapper).
+I created this project to learn modern API building technologies like ORM (Object Relational Mapping).
 ## DB related config.
 All database based config is inside **sequelize/index.js** 
 
